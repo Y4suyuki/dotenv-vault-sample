@@ -29,3 +29,9 @@ $ npx dotenv-vault@latest pull $environment
 ```
 
 This pull .env.$environment file
+
+## CI/CD
+
+### github actions
+https://www.dotenv.org/docs/languages/nodejs/github-actions
+
