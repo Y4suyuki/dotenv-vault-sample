@@ -17,3 +17,15 @@ After authentication succeeded, .env.me file is created. This works like secret 
 $ npx dotenv-vault@latest pull
 ```
 
+This pull .env file
+
+### Environments
+
+pull each environments .env
+
+```bash
+
+$ npx dotenv-vault@latest pull $environment
+```
+
+This pull .env.$environment file
