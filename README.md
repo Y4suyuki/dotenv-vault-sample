@@ -35,3 +35,8 @@ This pull .env.$environment file
 ### github actions
 https://www.dotenv.org/docs/languages/nodejs/github-actions
 
+Fetch DOTENV_KEY for ci environment and set it as secrets in github actions settings.
+```bash
+$ npx dotenv-vault@latest keys ci
+# this shows DOTENV_KEY value
+```
